@@ -1227,7 +1227,7 @@ actions:
                 default:
                   - action: notify.send_message
                     target:
-                      entity_id: "notify.{{ notify_group_target }}"
+                      entity_id:"notify.{{ notify_group_target }}"
                     data:
                       title: "{{title}}"
                       message: "{{message}}"
@@ -1538,7 +1538,7 @@ actions:
                             sequence:
                               - action: notify.send_message
                                 target:
-                                  entity_id: "notify.{{ notify_group_target }}"
+                                  entity_id:"notify.{{ notify_group_target }}"
                                 data:
                                   title: "{{title}}"
                                   message: "{{message}}"
